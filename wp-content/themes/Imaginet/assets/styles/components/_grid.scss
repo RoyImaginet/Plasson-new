@@ -8,3 +8,10 @@
 .sidebar {
   @include make-sm-column($sidebar-sm-columns);
 }
+.container {
+
+  @media (min-width: 1440px) {
+    width: $screen-max-min;
+  }
+  
+}
